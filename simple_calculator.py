@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Simple Calculator")
+root.resizable(False, False)
 
 input_area = Entry(root, width=40, borderwidth=3)
 input_area.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
